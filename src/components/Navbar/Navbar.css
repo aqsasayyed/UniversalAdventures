@@ -1,0 +1,21 @@
+.hero {
+    width: 100%;
+    background-size: cover;
+    padding: 16px 36px;
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-start;
+}
+
+.hero .main-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+    .hero .main-title {
+        font-size: 18px;
+    }
+}
